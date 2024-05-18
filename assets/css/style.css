@@ -46,7 +46,7 @@ html, body {
 
 .illust img {
     width: fit-content;
-    height: fit-content;
+    height: 110%;
 }
 
 .card h5 {
