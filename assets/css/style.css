@@ -45,8 +45,7 @@ html, body {
 }
 
 .illust img {
-    width: fit-content;
-    height: 110%;
+    object-fit: cover;
 }
 
 .card h5 {
@@ -106,9 +105,5 @@ html, body {
 @media screen and (max-width: 650px) {
     .card {
         height: 450px;
-    }
-
-    .illust img{
-        height: 120%;
     }
 }
